@@ -1,0 +1,7 @@
+# Design concept prompt
+
+Built-in image generation; Guizang material illustration workflow. The final implementation uses a cleaner teal-and-violet palette at the user's request. The concept is a design reference, not a source of numerical data.
+
+> Create a high-fidelity complete desktop UI design concept for an interactive educational neural network playground, intended for actual implementation as HTML/CSS, not a marketing page. Single screen at 16:9, clean white background and restrained charcoal typography, blue and orange scientific data. Preserve the visual information architecture of TensorFlow Playground: slim title area, horizontal control strip with play/reset/step, epoch, learning rate, activation, regularization and rate; below it an open three-column workspace with dataset selector and controls on the left, network diagram with 0–3 hidden layer controls and neurons in the center, large square decision-boundary output and training/test loss on the right. Two dataset thumbnails: ellipse with surrounding ribbon, and two-arm spiral. Include a clearly visible physics-in-architecture toggle for spiral and small learned versus true parameter readout. Scientific charts and controls are the focal point, no marketing hero, no decorative cards, no extra sections, no footer explanation, no fake nav. Inspired by 3D Swiss editorial illustration: restrained precision, generous whitespace, crisp colored data geometry and fine grid. Readable interface text, practical compact layout, no screenshot frames.
+
+Output: `assets/design-concept.png`.

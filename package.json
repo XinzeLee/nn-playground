@@ -1,0 +1,1 @@
+{"name":"neural-playground","private":true,"type":"module","scripts":{"build":"node build.mjs","test":"node build.mjs --check && node --test tests/*.test.js","serve":"python -m http.server 8000"}}
