@@ -8,7 +8,7 @@ Training runs entirely in your browser. The project is inspired by [TensorFlow P
 
 <a href="https://xinzelee.github.io/nn-playground/"><img src="assets/play-playground.svg" width="320" alt="Open the neural network playground"></a>
 
-[![The playground showing physics-in-architecture spiral training](assets/playground-pann.jpg)](https://xinzelee.github.io/nn-playground/)
+[![The playground showing physics-in-architecture spiral training](assets/playground-pann.png)](https://xinzelee.github.io/nn-playground/)
 
 ## Run locally
 
