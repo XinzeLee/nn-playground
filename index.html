@@ -40,7 +40,14 @@
       </section>
       <section class="output-panel"><h2>Output</h2><div class="losses"><div><span><i class="loss-dot train-dot"></i>Training loss</span><strong id="train-loss">—</strong></div><div><span><i class="loss-dot test-dot"></i>Test loss</span><strong id="test-loss">—</strong></div></div><div class="loss-chart-heading"><span>Cross-entropy <small>(nats / sample)</small></span><label>Y range <select id="loss-range"><option value="0,1">0–1</option><option value="0,2">0–2</option><option value="0,5">0–5</option><option value="0,25">0–25</option></select></label></div><span id="loss-warning" class="range-warning" hidden>Some loss values are outside the Y range</span><canvas id="loss-chart" width="600" height="200" role="img" aria-label="Training and test binary cross-entropy in nats per sample versus epoch"></canvas><div class="plot-wrap"><canvas id="output" width="400" height="400" aria-label="Decision boundary and data points"></canvas><span class="axis-x">x₁</span><span class="axis-y">x₂</span></div><div class="legend"><span><i class="dot positive"></i> Positive</span><span><i class="dot negative"></i> Negative</span><span class="legend-gradient"></span><small>model output</small></div><div class="options"><label><input type="checkbox" id="show-test"> Show test data</label><label><input type="checkbox" id="discretize"> Discretize output</label></div></section>
     </div>
-    <footer>This educational project is inspired by <a href="https://playground.tensorflow.org/" target="_blank" rel="noopener noreferrer">TensorFlow Playground</a> and built by <a href="https://github.com/XinzeLee" target="_blank" rel="noopener noreferrer">Xinze Li</a>.</footer>
+    <footer>
+      <div class="community" data-community aria-label="Playground community">
+        <div class="community-counts" aria-live="polite"><span data-visit-count>Visits: …</span><span data-like-count>Likes: …</span></div>
+        <button class="community-like" type="button" data-like-btn aria-pressed="false"><span aria-hidden="true">♡</span> Like this playground</button>
+        <span class="community-status" data-counter-status role="status" hidden></span>
+      </div>
+      <p>This educational project is inspired by <a href="https://playground.tensorflow.org/" target="_blank" rel="noopener noreferrer">TensorFlow Playground</a> and built by <a href="https://github.com/XinzeLee" target="_blank" rel="noopener noreferrer">Xinze Li</a>.</p>
+    </footer>
   </main>
   <dialog id="parameter-dialog"><form method="dialog" id="parameter-form"><h2 id="parameter-title">Edit parameter</h2><label for="parameter-value">Value</label><input id="parameter-value" type="number" step="any" required><div><button value="cancel" formnovalidate>Cancel</button><button value="save" class="save-parameter">Apply</button></div></form></dialog>
   <script src="./playground.bundle.js" defer></script>

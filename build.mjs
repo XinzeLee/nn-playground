@@ -1,7 +1,7 @@
 // Generate the classic browser bundle so index.html works from file:// as well as GitHub Pages.
 import { readFile, writeFile } from 'node:fs/promises';
 
-const sourceFiles = ['model.js', 'history.js', 'chart.js', 'app.js'];
+const sourceFiles = ['model.js', 'history.js', 'chart.js', 'app.js', 'community.js'];
 const parts = [];
 for (const file of sourceFiles) {
   const source = await readFile(new URL(file, import.meta.url), 'utf8');
