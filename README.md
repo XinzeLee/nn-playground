@@ -1,5 +1,18 @@
 # Neural Network Playground
 
+<!-- clone-stats:start -->
+<p align="center">
+  <a href="https://github.com/XinzeLee/nn-playground/graphs/traffic">
+    <img src="https://img.shields.io/badge/Total_Clones-pending-7c3aed?style=flat-square" alt="Total tracked repository clones: pending" />
+  </a>
+  <a href="https://github.com/XinzeLee/nn-playground/graphs/traffic">
+    <img src="https://img.shields.io/badge/Unique_Clones_(14_days)-pending-b45309?style=flat-square" alt="Unique repository cloners in the past 14 days: pending" />
+  </a>
+</p>
+
+<p align="center"><sub>GitHub clone statistics will appear after the first successful update.</sub></p>
+<!-- clone-stats:end -->
+
 An interactive playground for learning and practicing key machine learning concepts. Explore classification, neural networks, feature selection, training, and regularization by changing settings and watching the results in real time. A physics-informed spiral model also illustrates how prior knowledge can be built into a network.
 
 Training runs entirely in your browser. The project is inspired by [TensorFlow Playground](https://playground.tensorflow.org/) and built by [Xinze Li](https://github.com/XinzeLee).
