@@ -20,7 +20,7 @@ test('overlapping snapshots replace daily totals and keep GitHub’s window-wide
   assert.equal(second.historyMayHaveGaps, false);
   const block = renderBlock(second, 'XinzeLee/nn-playground');
   assert.match(block, /Total_Clones-14-7c3aed/);
-  assert.match(block, /Unique_Clones_\(14_days\)-3-b45309/);
+  assert.match(block, /Unique_Clones-3-b45309/);
   assert.match(block, /updated 2026-11-29 UTC/);
 });
 
@@ -58,7 +58,7 @@ test('the updater writes the README and history from an authenticated API respon
     const readme = await readFile(join(dir, 'README.md'), 'utf8');
     const history = JSON.parse(await readFile(join(dir, '.github', 'clone-history.json'), 'utf8'));
     assert.match(readme, /Total_Clones-3-7c3aed/);
-    assert.match(readme, /Unique_Clones_\(14_days\)-2-b45309/);
+    assert.match(readme, /Unique_Clones-2-b45309/);
     assert.equal(history.days['2026-11-20'], 3);
     assert.doesNotMatch(readme, /test-token/);
   } finally { await rm(dir, { recursive: true, force: true }); }

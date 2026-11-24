@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/badge/Total_Clones-60-7c3aed?style=flat-square" alt="Total tracked repository clones: 60" />
   </a>
   <a href="https://github.com/XinzeLee/nn-playground/graphs/traffic">
-    <img src="https://img.shields.io/badge/Unique_Clones_(14_days)-30-b45309?style=flat-square" alt="Unique repository cloners in the past 14 days: 30" />
+    <img src="https://img.shields.io/badge/Unique_Clones-30-b45309?style=flat-square" alt="Unique repository cloners in the past 14 days: 30" />
   </a>
 </p>
 

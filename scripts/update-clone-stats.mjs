@@ -48,7 +48,7 @@ export function renderBlock(history, repository) {
     <img src="https://img.shields.io/badge/Total_Clones-${number(total)}-7c3aed?style=flat-square" alt="Total tracked repository clones: ${number(total)}" />
   </a>
   <a href="${url}">
-    <img src="https://img.shields.io/badge/Unique_Clones_(14_days)-${number(history.uniqueLast14Days)}-b45309?style=flat-square" alt="Unique repository cloners in the past 14 days: ${number(history.uniqueLast14Days)}" />
+    <img src="https://img.shields.io/badge/Unique_Clones-${number(history.uniqueLast14Days)}-b45309?style=flat-square" alt="Unique repository cloners in the past 14 days: ${number(history.uniqueLast14Days)}" />
   </a>
 </p>
 
