@@ -21,7 +21,7 @@ test('overlapping snapshots replace daily totals and keep GitHub’s window-wide
   const block = renderBlock(second, 'XinzeLee/nn-playground');
   assert.match(block, /Total_Clones-14-7c3aed/);
   assert.match(block, /Unique_Clones-3-b45309/);
-  assert.match(block, /updated 2026-11-29 UTC/);
+  assert.match(block, /GitHub traffic \(monitoring started on November 22, 2026\) · cumulative tracked clones · Till 2026-11-29 UTC/);
 });
 
 test('long interruptions are flagged and invalid API data is rejected', () => {

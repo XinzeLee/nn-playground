@@ -10,7 +10,7 @@
   </a>
 </p>
 
-<p align="center"><sub>Tracked clone total since collection began (first snapshot includes up to 14 prior days) · unique cloners in the last 14 days · updated 2026-11-24 UTC</sub></p>
+<p align="center"><sub>GitHub traffic (monitoring started on November 24, 2026) · cumulative tracked clones · Till 2026-11-24 UTC</sub></p>
 <!-- clone-stats:end -->
 
 An interactive playground for learning and practicing key machine learning concepts. Explore classification, neural networks, feature selection, training, and regularization by changing settings and watching the results in real time. A physics-informed spiral model also illustrates how prior knowledge can be built into a network.

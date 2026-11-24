@@ -41,7 +41,8 @@ export function renderBlock(history, repository) {
   count(total, 'tracked clone total');
   const number = value => count(value, 'clone count').toLocaleString('en-US');
   const url = `https://github.com/${repository}/graphs/traffic`;
-  const details = `Tracked clone total since collection began (first snapshot includes up to 14 prior days) · unique cloners in the last 14 days · updated ${history.lastFetchedAt.slice(0, 10)} UTC${history.historyMayHaveGaps ? ' · history may have gaps' : ''}`;
+  const monitoringStart = new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', year: 'numeric', month: 'long', day: 'numeric' }).format(new Date(history.firstFetchedAt));
+  const details = `GitHub traffic (monitoring started on ${monitoringStart}) · cumulative tracked clones · Till ${history.lastFetchedAt.slice(0, 10)} UTC${history.historyMayHaveGaps ? ' · history may have gaps' : ''}`;
   return `${start}
 <p align="center">
   <a href="${url}">
